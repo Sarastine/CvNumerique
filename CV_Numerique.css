@@ -1,9 +1,4 @@
-/*header{
-	background-color: #333;
-	overflow: hidden;
-}*/
-
-header a {
+.Bouton {
 	background-color: #333;
 	float: left;
 	color: #080;
@@ -16,14 +11,43 @@ header a {
 	margin-right: 5px;
 }
 
-header a:hover {
+.Bouton:hover {
 	color: #333;
 	background-color: #080;
 }
 
-header a.active {
+.Bouton.active {
 	background-color: #080;
 	color: #333;
+}
+
+.Flotte {
+	float: left;
+}
+
+#mySect1 {
+	width: 100%;
+	display: block;
+}
+
+#mySect2 {
+	width: 100%;
+	display: block;
+}
+
+#mySect3 {
+	width: 100%;
+	display: block;
+}
+
+#mySect4 {
+	width: 100%;
+	display: block;
+}
+
+#mySect5 {
+	width: 100%;
+	display: block;
 }
 
 .bordbarre{
@@ -31,6 +55,8 @@ header a.active {
 	margin-bottom: 2px;
 	margin-left: 5px;
 	margin-right: 5px;
+	color: #FFF;
+	min-width: 280px;
 }
 
 .barre80{
