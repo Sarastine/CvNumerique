@@ -1,22 +1,43 @@
-header{
+/*header{
 	background-color: #333;
 	overflow: hidden;
-}
+}*/
 
 header a {
+	background-color: #333;
 	float: left;
-	color: #CCC;
+	color: #080;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
+	border: 1px solid #080;
+	margin-bottom: 2px;
+	margin-right: 5px;
 }
 
 header a:hover {
+	color: #333;
 	background-color: #080;
 }
 
-/*header a.active {
-	background-color: #CCC;
+header a.active {
+	background-color: #080;
 	color: #333;
-}*/
+}
+
+.bordbarre{
+	border: 1px solid #080;
+	margin-bottom: 2px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.barre80{
+	background-color: #080;
+	width: 80%;
+}
+.barre20{
+	background-color: #080;
+	width: 20%;
+}
