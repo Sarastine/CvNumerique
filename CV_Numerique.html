@@ -2,8 +2,8 @@
 <html lang="fr">
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="CV_Numerique.css">
-	<!--<link rel="stylesheet" href="bootstrap.css">-->
 	<script type="text/javascript" src="CV_Numerique.js"></script>
 	<title>CV Boucher Pierre</title>
 </head>
@@ -12,33 +12,33 @@
 		<h1>Boucher Pierre</h1>
 		<h1>Développeur logiciel junior</h1>
 	</div>
-	<div class="Centrer">
-		<button class="Bouton" onclick="Bouton('Presentation')">Présentation</button>
-		<button class="Bouton" onclick="BoutonFlex('Competences')">Compétences</button>
-		<button class="Bouton" onclick="Bouton('Formation')">Formation</button>
-		<button class="Bouton" onclick="Bouton('ExpPro')">Expériences Professionnelles</button>
-		<button class="Bouton" onclick="Bouton('Contact')">Contact</button>
+	<div class="Centrer" class="container-fluid">
+		<button class="col-xs-12 col-md-5 col-lg-2" onclick="Bouton('Presentation')"><span class="Bouton">Présentation</span></button>
+		<button class="col-xs-12 col-md-5 col-lg-2" onclick="BoutonFlex('Competences')"><span class="Bouton">Compétences</span></button>
+		<button class="col-xs-12 col-md-5 col-lg-2" onclick="Bouton('Formation')"><span class="Bouton">Formation</span></button>
+		<button class="col-xs-12 col-md-5 col-lg-3" onclick="Bouton('ExpPro')"><span class="Bouton">Expériences Professionnelles</span></button>
+		<button class="col-xs-12 col-md-5 col-lg-2" onclick="Bouton('Contact')"><span class="Bouton">Contact</span></button>
 	</div>
 	<div id="Presentation">
 		<p class="calligraphy">Diagnostiqué autiste Asperger en 201jesaispluscombien, j'ai suivi le dispositif Pass P'As (Passeport Professionnel Asperger) sur l'année 2017-2018. Grâce à cela, j'ai pu me réorienter vers le milieu du développement web, et suis actuellement une formation à La Manu : L'École des métiers du Numérique afin de me mettre à niveau.</p>
 	</div>
 	<div id="Competences" class="calligraphy">
-		<div class="bordbarre">
+		<div class="bordbarre" class="col-xs-12 col-md-5 col-lg-2">
 			<div class="barre75">HTML 75%</div>
 		</div>
-		<div class="bordbarre">
+		<div class="bordbarre" class="col-xs-12 col-md-5 col-lg-2">
 			<div class="barre75">CSS 75%</div>
 		</div>
-		<div class="bordbarre">
+		<div class="bordbarre" class="col-xs-12 col-md-5 col-lg-2">
 			<div class="barre10">JS 10%</div>
 		</div>
-		<div class="bordbarre">
+		<div class="bordbarre" class="col-xs-12 col-md-5 col-lg-2">
 			<div class="barre10">PHP 10%</div>
 		</div>
-		<div class="bordbarre">
+		<div class="bordbarre" class="col-xs-12 col-md-5 col-lg-2">
 			<div class="barre75">Terminal 75%</div>
 		</div>
-		<div class="bordbarre">
+		<div class="bordbarre" class="col-xs-12 col-md-5 col-lg-2">
 			<div class="barre75">Github 75%</div>
 		</div>
 	</div>

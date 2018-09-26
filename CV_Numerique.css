@@ -28,11 +28,16 @@ button {
 	border-radius: 10px;
 }
 
+button:hover {
+	color: #333;
+	background-color: #080;
+}
+
 .Bouton {
 	color: #080;
 }
 
-button:hover {
+span.Bouton:hover {
 	color: #333;
 	background-color: #080;
 }
