@@ -3,31 +3,46 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="CV_Numerique.css">
-	<link rel="stylesheet" href="bootstrap.css">
+	<!--<link rel="stylesheet" href="bootstrap.css">-->
 	<script type="text/javascript" src="CV_Numerique.js"></script>
 	<title>CV Boucher Pierre</title>
 </head>
 <body>
-	<header>
-		<a class="Bouton" href="#mySect1" onclick="document.getElementById">Présentation</a>
-		<a class="Bouton" href="#mySect2" onclick="document.getElementById">Compétences</a>
-		<a class="Bouton" href="#mySect3" onclick="document.getElementById">Formation</a>
-		<a class="Bouton" href="#mySect4" onclick="document.getElementById">Expériences Professionnelles</a>
-		<a class="Bouton" href="#mySect5" onclick="document.getElementById">Contact</a>
-	</header>
-	<div id="mySect1" class="Flotte">
+	<div>
 		<h1>Boucher Pierre</h1>
-		<h1>Développeur web junior</h1>
+		<h1>Développeur logiciel junior</h1>
 	</div>
-	<div id="mySect2" class="Flotte">
+	<div class="Centrer">
+		<button class="Bouton" onclick="Bouton('Presentation')">Présentation</button>
+		<button class="Bouton" onclick="BoutonFlex('Competences')">Compétences</button>
+		<button class="Bouton" onclick="Bouton('Formation')">Formation</button>
+		<button class="Bouton" onclick="Bouton('ExpPro')">Expériences Professionnelles</button>
+		<button class="Bouton" onclick="Bouton('Contact')">Contact</button>
+	</div>
+	<div id="Presentation">
+		<p class="calligraphy">Diagnostiqué autiste Asperger en 201jesaispluscombien, j'ai suivi le dispositif Pass P'As (Passeport Professionnel Asperger) sur l'année 2017-2018. Grâce à cela, j'ai pu me réorienter vers le milieu du développement web, et suis actuellement une formation à La Manu : L'École des métiers du Numérique afin de me mettre à niveau.</p>
+	</div>
+	<div id="Competences" class="calligraphy">
 		<div class="bordbarre">
-			<div class="barre20">20%</div>
+			<div class="barre75">HTML 75%</div>
 		</div>
 		<div class="bordbarre">
-			<div class="barre80">80%</div>
+			<div class="barre75">CSS 75%</div>
+		</div>
+		<div class="bordbarre">
+			<div class="barre10">JS 10%</div>
+		</div>
+		<div class="bordbarre">
+			<div class="barre10">PHP 10%</div>
+		</div>
+		<div class="bordbarre">
+			<div class="barre75">Terminal 75%</div>
+		</div>
+		<div class="bordbarre">
+			<div class="barre75">Github 75%</div>
 		</div>
 	</div>
-	<div id="mySect3" class="Flotte">
+	<div id="Formation">
 		<ul>
 			<li>2017-2018 : Dispositif Pass P'As (Passeport Professionnel Asperger) au CLRP de Lille</li>
 			<li>2010-2011 : Licence Professionnelle ART (Automatismes, Réseaux et Télémaintenance) à l'IUT de l'Aisne, département GEII, Cuffies</li>
@@ -35,7 +50,7 @@
 			<li>2005-2008 : BAC STI GMA (Sciences et Techniques de l'Ingénieur, Génie Mécanique option Productique) au lycée Léonard de Vinci, Soissons</li>
 		</ul>
 	</div>
-	<div id="mySect4" class="Flotte">
+	<div id="ExpPro">
 		<ul>
 			<li>Mars 2018-Aujourd'hui : Cybercentre, assistance, dépannage et conseil en informatique en alternance</li>
 			<li>Novembre 2012-Aujourd'hui : Secrétariat pour cabinet d'infirmoère libérale (missions de télétransmissions et assistance informatique)</li>
@@ -44,7 +59,7 @@
 			<li>2008-2010 : Projet de BTS, élaboration d'une machine de conditionnement de stylo (dimensionnement du matériel, câblage d'armoire électrique, programmation)</li>
 		</ul>
 	</div>
-	<div id="mySect5" class="Flotte">
+	<div id="Contact">
 		<p>Téléphone : 06 87 27 48 27</p>
 		<p>Adresse mail : <a href="mailto:Boucher.Pierre@hotmail.fr">Boucher.Pierre@hotmail.fr</a></p>
 	</div>
